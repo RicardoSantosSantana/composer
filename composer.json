@@ -1,0 +1,22 @@
+{
+    "name": "ricardosantossantana/lercursos",
+    "description": "Projeto permitirá ler cursos do site da alura",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RicardoSantosSantana",
+            "email": "ricardo@needsolution.com.br"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^5.4",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
